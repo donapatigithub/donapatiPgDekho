@@ -13,6 +13,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.pgdekho.ui.theme.PgDekhoTheme
 
 class MainActivity : ComponentActivity() {
+
+    //Commit check
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
