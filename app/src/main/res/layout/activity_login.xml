@@ -5,15 +5,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/blueBackground"
+    android:background="@drawable/background"
     tools:context=".LoginActivity">
 <androidx.appcompat.widget.AppCompatTextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="@string/Title"
     android:layout_margin="22dp"
-    android:textSize="40dp"
-    android:textColor="@color/white"/>
+    android:textSize="45dp"
+    android:textColor="@color/black"/>
 <androidx.cardview.widget.CardView
     android:id="@+id/btnsignup"
     android:layout_width="match_parent"
@@ -56,7 +56,7 @@
         android:layout_above="@id/btnlogin"
         android:layout_marginStart="22dp"
         android:textSize="20sp"
-        android:textColor="@color/white"/>
+        android:textColor="@color/black"/>
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/title"
         android:layout_width="match_parent"
@@ -65,6 +65,6 @@
         android:layout_above="@id/tagline"
         android:layout_marginStart="22dp"
         android:textSize="40sp"
-        android:textColor="@color/white"/>
+        android:textColor="@color/black"/>
 
 </RelativeLayout>
