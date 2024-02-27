@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PgDekho</string>
+    <string name="Title">NestSpot</string>
+    <string name="Signup">Sign up</string>
+    <string name="login">Log in</string>
+    <string name="TagLine">Your cozy corner awaits.</string>
+
 </resources>
